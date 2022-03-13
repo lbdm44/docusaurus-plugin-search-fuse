@@ -5,7 +5,7 @@
     "target": "ESNext",
     "types": ["@docusaurus/module-type-aliases"],
     "rootDir": "./src/theme/",
-    "outDir": "./dist/theme/",
+    "outDir": "./dist/theme/"
   },
   "include": ["./src/theme/"]
 }
