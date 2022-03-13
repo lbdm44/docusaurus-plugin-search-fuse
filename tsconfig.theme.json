@@ -2,7 +2,10 @@
   "extends": "./tsconfig.base.json",
   "compilerOptions": {
     "module": "ESNext",
-    "target": "ESNext"
+    "target": "ESNext",
+    "types": ["@docusaurus/module-type-aliases"],
+    "rootDir": "./src/theme/",
+    "outDir": "./dist/theme/",
   },
-  "include": ["./src/theme/**/*"]
+  "include": ["./src/theme/"]
 }
