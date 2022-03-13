@@ -1,1 +1,1 @@
-# docusaurus-plugin-search-fuze
+# docusaurus-plugin-search-fuse
