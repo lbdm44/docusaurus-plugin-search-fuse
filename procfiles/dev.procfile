@@ -1,0 +1,2 @@
+theme: tsc --watch --preserveWatchOutput --project tsconfig.theme.json
+plugin: tsc --watch --preserveWatchOutput --project tsconfig.plugin.json
