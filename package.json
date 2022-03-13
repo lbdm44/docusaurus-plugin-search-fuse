@@ -17,12 +17,31 @@
     "url": "https://github.com/lbdm44/docusaurus-plugin-search-fuse/issues"
   },
   "homepage": "https://github.com/lbdm44/docusaurus-plugin-search-fuse#readme",
+  "files": [
+    "dist",
+    "types",
+    "package.json",
+    "README.md"
+  ],
   "main": "dist/plugin.js",
+  "types": "types/index.d.ts",
   "scripts": {
+    "build": "tsc --project ./tsconfig.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "dependencies": {
+    "@docusaurus/core": "2.0.0-beta.17",
+    "@docusaurus/utils": "2.0.0-beta.17",
+    "@docusaurus/utils-validation": "2.0.0-beta.17"
+  },
   "devDependencies": {
+    "@docusaurus/module-type-aliases": "2.0.0-beta.17",
+    "@docusaurus/types": "2.0.0-beta.17",
     "@types/node": "^17.0.21",
+    "@types/react": "^17.0.40",
+    "@types/react-dom": "^17.0.13",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
     "typescript": "^4.6.2"
   },
   "volta": {
