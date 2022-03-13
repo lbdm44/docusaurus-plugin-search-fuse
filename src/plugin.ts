@@ -1,6 +1,6 @@
 import type { LoadContext, Plugin } from "@docusaurus/types";
 
-import type { PluginOptions } from "../types";
+import type { PluginOptions } from "../types/docusaurus-plugin-search-fuse";
 
 export default function DocusaurusPluginSearchFuse(
   context: LoadContext,

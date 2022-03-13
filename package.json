@@ -24,7 +24,7 @@
     "README.md"
   ],
   "main": "dist/plugin.js",
-  "types": "types/index.d.ts",
+  "types": "types/docusaurus-plugin-search-fuse.d.ts",
   "scripts": {
     "build": "tsc --project ./tsconfig.json",
     "test": "echo \"Error: no test specified\" && exit 1"
