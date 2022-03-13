@@ -1,0 +1,31 @@
+{
+  "name": "docusaurus-plugin-search-fuse",
+  "version": "0.0.0",
+  "description": "A search plugin for Docusaurus that uses Fuse.js under the hood",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lbdm44/docusaurus-plugin-search-fuse.git"
+  },
+  "keywords": [
+    "docusaurus",
+    "search",
+    "fuse"
+  ],
+  "author": "lbdm44",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lbdm44/docusaurus-plugin-search-fuse/issues"
+  },
+  "homepage": "https://github.com/lbdm44/docusaurus-plugin-search-fuse#readme",
+  "main": "dist/plugin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.21",
+    "typescript": "^4.6.2"
+  },
+  "volta": {
+    "node": "16.14.0"
+  }
+}
